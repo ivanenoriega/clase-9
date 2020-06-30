@@ -1,0 +1,40 @@
+@import "./vars";
+
+* {
+  list-style: none;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: $background-color;
+  padding: 20px;
+}
+
+.main-header,
+.main-section {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#contact,
+#about,
+#experience,
+#education,
+#skills,
+#languages {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: $primary-background;
+  margin-bottom: 20px;
+}
+
+.section {
+  .section__title {
+    font-size: 1.8rem;
+    margin: 0 0 15px;
+  }
+}

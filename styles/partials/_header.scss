@@ -1,0 +1,35 @@
+.main-header {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  background-image: url(./../assets/background.jpg);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  .image {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, 0.15),
+      0 1.5px 3px 0 rgba(0, 0, 0, 0.15);
+    background-color: $primary-background;
+    border: 3px solid $primary-background;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+
+    .title {
+      margin: 0 0 5px;
+      font-size: 2rem;
+    }
+
+    .description {
+      margin: 0;
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+  }
+}
